@@ -1,0 +1,11 @@
+type Car_table {
+  car_id: ID! 
+  car_number: String
+  time: String
+  weight: Int
+  car_img: String
+}
+type Query {
+  car_table_all() : [Car_table]
+  car_table_number() : [Car_table]
+}
